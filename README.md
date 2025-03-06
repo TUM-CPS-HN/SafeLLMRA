@@ -1,6 +1,25 @@
 # JetRacer
 
+## Requirements
+- Ubuntu 18.04
+- ROS Melodic
+- Python 3.7+
+- OpenAI Python package
 
+
+## How to run
+1. Run the following commands:
+```bash
+cd ~/catkin_ws
+catkin_make
+source devel/setup.bash
+roslaunch my_robot_controller safe_LLM_contoller
+```
+
+2. In a new terminal, run the reachability analysis:
+```bash
+python my_robot_controller/safety_check_nonlinear_reachability.py
+```
 
 # Turtlebot3 
 First, the following OS and software need to be installed:
@@ -28,7 +47,6 @@ Then, the following commands need to be executed to install required dependencie
 - sudo apt install ros-humble-teleop-twist-keyboard
 - pip install openai==0.28
 - cd Turtlebot/pyzonotope && pip install .
-
 
 How to run: 
 - source ~/<<"workspace">>/install/setup.bash

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyzonotope
+Version: 1.0.0
+Summary: Zonotopes in Python
+Home-page: 
+Author: Alireza Naderi Akhormeh
+Author-email: ali_reza_naderi@outlook.com
+License: MIT
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: cvxpy
+Requires-Dist: matplotlib

@@ -27,7 +27,7 @@ class RobotControllerNode(Node):
         # Store latest odometry message
         self.latest_odom = None
         # Set your OpenAI API key
-        self.api_key = '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'
+        self.api_key = 'sk-<your-api-key>'  # Replace with secure method (e.g., environment variable)
         openai.api_key = self.api_key
 
         # Create a ROS 2 service

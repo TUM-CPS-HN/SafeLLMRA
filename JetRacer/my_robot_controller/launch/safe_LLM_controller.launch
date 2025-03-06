@@ -1,0 +1,9 @@
+<launch>
+  <include file="$(find jetracer)/launch/jetracer.launch" />
+  <include file="$(find jetracer)/launch/lidar.launch" />
+  <node pkg="chat_gpt" type="chat_gpt_service.py" name="chat_gpt_service" output="screen"/>
+  <node pkg="my_robot_controller" type="LLM_robot_controller.py" name="LLM_robot_controller" output="screen"/>
+  <node pkg="my_robot_controller" type="safety_check_nonlinear_reachability.py" name="safety_check_nonlinear_reachability" output="screen"/>
+  <node pkg="reachability_analysis" type="data_logger.py" name="reachability_logger" output="screen"/>
+  <node pkg="system_identification" type="data_logger_turtulebot_dynamic.py" name="system_id_logger" output="screen"/>
+</launch>
