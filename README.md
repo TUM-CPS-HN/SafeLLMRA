@@ -13,7 +13,7 @@
 cd ~/catkin_ws
 catkin_make
 source devel/setup.bash
-roslaunch my_robot_controller safe_LLM_contoller
+roslaunch my_robot_controller safe_LLM_controller.launch
 ```
 
 2. In a new terminal, run the reachability analysis:
