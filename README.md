@@ -2,7 +2,7 @@
 <br/> 
 This repo contains the code for our paper
 
-Ahmad Hafez, Alireza Naderi Akhormeh, Amr Hegazy, Amr Alanwar "Data Driven Reachability Analysis using Matrix Zonotopes" ([link](https://arxiv.org/abs/2503.03911))
+Ahmad Hafez, Alireza Naderi Akhormeh, Amr Hegazy, Amr Alanwar "Safe LLM-Controlled Robots with Formal Guarantees via Reachability Analysis" ([link](https://arxiv.org/abs/2503.03911))
 
 
 ## Short video about the idea and the demo
