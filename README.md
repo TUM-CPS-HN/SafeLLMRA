@@ -1,3 +1,18 @@
+## Safe LLM-Controlled Robots with Formal Guarantees via Reachability Analysis
+<br/> 
+This repo contains the code for our paper
+
+Ahmad Hafez, Alireza Naderi Akhormeh, Amr Hegazy, Amr Alanwar "Data Driven Reachability Analysis using Matrix Zonotopes" ([link](https://arxiv.org/abs/2503.03911))
+
+
+## Short video about the idea and the demo
+ 
+ [![YouTube](https://img.youtube.com/vi/O4CUd62d6YA/0.jpg)](https://youtu.be/O4CUd62d6YA?si=zSNl0SFzkDeRs0FI)
+
+
+
+
+
 # JetRacer
 
 ## Requirements
